@@ -206,7 +206,7 @@ export default function Examples(): JSX.Element {
               />
               <div className={styles.viewerControls}>
                 <a
-                  href={`https://github.com/sebcrozet/kiss3d/blob/master/examples/${selected}.rs`}
+                  href={`https://github.com/dimforge/kiss3d/blob/master/examples/${selected}.rs`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.sourceLink}

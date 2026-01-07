@@ -60,9 +60,21 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/sebcrozet/kiss3d',
-          label: 'GitHub',
+          value: '<a class="header-button-donate" href="https://github.com/sponsors/dimforge" target="_blank" rel="noopener noreferrer">Donate ♥</a>',
+          className: 'header-button-donate',
           position: 'right',
+          type: 'html'
+        },
+        {
+          href: 'https://dimforge.com',
+          label: 'Dimforge',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/dimforge/kiss3d',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
@@ -78,7 +90,7 @@ const config: Config = {
             },
             {
               label: 'Examples',
-              href: 'https://github.com/sebcrozet/kiss3d/tree/master/examples',
+              href: 'https://github.com/dimforge/kiss3d/tree/master/examples',
             },
           ],
         },
@@ -87,11 +99,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Discussions',
-              href: 'https://github.com/sebcrozet/kiss3d/discussions',
+              href: 'https://github.com/dimforge/kiss3d/discussions',
             },
             {
               label: 'Issues',
-              href: 'https://github.com/sebcrozet/kiss3d/issues',
+              href: 'https://github.com/dimforge/kiss3d/issues',
             },
           ],
         },
@@ -100,7 +112,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/sebcrozet/kiss3d',
+              href: 'https://github.com/dimforge/kiss3d',
             },
             {
               label: 'Crates.io',

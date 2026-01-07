@@ -6,8 +6,8 @@
     <a href="https://discord.gg/vt9DJSW">
         <img src="https://img.shields.io/discord/507548572338880513.svg?logo=discord&colorB=7289DA">
     </a>
-    <a href="https://github.com/sebcrozet/kiss3d/actions">
-        <img src="https://github.com/sebcrozet/kiss3d/workflows/CI%20build/badge.svg" alt="Build status">
+    <a href="https://github.com/dimforge/kiss3d/actions">
+        <img src="https://github.com/dimforge/kiss3d/workflows/CI%20build/badge.svg" alt="Build status">
     </a>
     <a href="https://crates.io/crates/kiss3d">
          <img src="https://img.shields.io/crates/v/kiss3d.svg?style=flat-square" alt="crates.io">

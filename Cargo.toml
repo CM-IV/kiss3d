@@ -9,7 +9,7 @@ edition      = "2018"
 keywords     = ["graphics", "wgpu", "KISS"]
 license      = "BSD-3-Clause"
 readme       = "README.md"
-repository   = "https://github.com/sebcrozet/kiss3d"
+repository   = "https://github.com/dimforge/kiss3d"
 
 include = [
     "src/**/*.rs",
@@ -95,6 +95,6 @@ name = "procedural"
 required-features = ["parry"]
 
 [patch.crates-io]
-#glamx = { path = "../../glamx" }
+glamx = { path = "../../glamx" }
 #parry3d = { path = "../../parry/crates/parry3d" }
 #parry2d = { path = "../../parry/crates/parry2d" }

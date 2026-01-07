@@ -55,7 +55,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="https://github.com/sebcrozet/kiss3d">
+            to="https://github.com/dimforge/kiss3d">
             GitHub
           </Link>
         </div>
