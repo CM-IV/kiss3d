@@ -248,7 +248,7 @@ async fn main() {
         }
 
         // immediate mode text
-        let fps_text = format!("FPS: {:.1}, dt: {:.3}ms", fps, dt);
+        let fps_text = format!("FPS: {:.1}, dt: {:.3}ms", fps, dt * 1000.0);
         window.draw_text(
             &fps_text,
             Vec2::new(20.0f32, 20.0f32),
